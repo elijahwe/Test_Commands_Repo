@@ -7,7 +7,10 @@ class Test_Commands(commands.Cog):
     @commands.command(name="test1")
     async def test1(self, ctx: commands.Context):
         await ctx.send("Test 1 successful")
-
+        
+    @commands.command(name="test2")
+    async def test1(self, ctx: commands.Context):
+        await ctx.send("Test 2 successful")
 
 async def setup(bot):
     await bot.add_cog(Test_Commands(bot))
