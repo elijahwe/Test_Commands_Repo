@@ -7,7 +7,6 @@ import requests as r
 
 import cogs.shared
 
-#Secret comment :)
 
 def month_string_to_datetime(month_string: str) -> datetime:
     # Get the current date
